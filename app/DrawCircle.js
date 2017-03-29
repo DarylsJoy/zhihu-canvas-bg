@@ -63,3 +63,5 @@ class currentCircle extends Circle {
     ctx.fill();
   }
 }
+
+export { Circle, currentCircle };

@@ -1,6 +1,7 @@
 'use strict';
-window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+import {Circle, currentCircle} from './DrawCircle';
 
+window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 let canvas = document.querySelector("#canvas");
 let ctx = canvas.getContext("2d");
 // 画布宽高
